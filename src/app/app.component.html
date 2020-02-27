@@ -1,6 +1,16 @@
-<router-outlet></router-outlet>
+<mat-sidenav-container>
+
+  <mat-sidenav #sidenav role="navigation">
+    <p>Sidenav bar</p>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
 
 
-<button mat-icon-button color="primary">
+<!-- <button mat-icon-button color="primary">
   Dale like <mat-icon>add_location</mat-icon>
-</button>
+</button> -->
