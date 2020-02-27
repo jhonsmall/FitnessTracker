@@ -7,12 +7,3 @@ a:hover,
 a:active{
     color: lightgray;
 }
-
-.navigation-items{
-    list-style: none;
-}
-
-.nav-caption{
-    display: inline-block;
-    padding: 0 6px;
-}
