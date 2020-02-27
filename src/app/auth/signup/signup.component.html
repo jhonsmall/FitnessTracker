@@ -34,11 +34,13 @@
     <mat-form-field hintLabel="Only 18+ years old">
       <!-- Añadiendo la directiva bindeada el toggle esta conectado con el #picker y el input esta conectado
            con el valor que se añade desde el #picker -->
-      <input matInput [matDatepicker]="picker" [max]="maxDate" placeholder="Your Birth Date"/>
+      <input matInput [matDatepicker]="picker" [max]="maxDate" placeholder="Your Birthdate" ngModel name="bithdate" required/>
       <!-- matSuffix para añadir el icono del calendario al final del input -->
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
+    <mat-checkbox ngModel name="agree" required color="primary">Agree to Terms and Conditions.</mat-checkbox>
+
     <button type="submit" mat-raised-button color="primary">Submit</button>
   </form>
 </section>
