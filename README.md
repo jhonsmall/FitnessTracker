@@ -31,4 +31,4 @@ This app has installed:
  - [angular material](https://material.angular.io/)
  - hammerjs to use gesture animations
  - material icons that you can [use it](https://material.io/resources/icons/?style=baseline)
- - flex-layout library
+ - flex-layout library [wiki](https://github.com/angular/flex-layout/wiki)
