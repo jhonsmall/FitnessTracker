@@ -34,10 +34,10 @@ import { SidenavComponent } from './navigation/sidenav/sidenav.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule,
+    FormsModule,
     AppRoutingModule,
-    FlexLayoutModule,
-    FormsModule
+    MaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
